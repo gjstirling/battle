@@ -15,4 +15,9 @@ end
 
 get '/cat' do
   erb(:index)
+  # attr_reader :cat_name
+
+  # def initialize 
+  #   @cat_name = ["Graeme", "Lizzy", "Bella", "Scrabble"].sample
+  # end 
 end
